@@ -11,3 +11,7 @@ def test_adddisplay():
 def test_screen():
     assert 4+8==10
 
+@pytest.mark.regression
+def test_pop():
+    print("hello")
+
